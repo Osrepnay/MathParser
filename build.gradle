@@ -1,0 +1,17 @@
+plugins {
+	id 'java-library'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'com.mathparser.ExampleCalculator'
+	}
+}
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	testImplementation 'junit:junit:4.12'
+}
